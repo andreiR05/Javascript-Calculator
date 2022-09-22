@@ -1,0 +1,154 @@
+body{
+    background-color: aquamarine;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(156, 180, 156);
+    height: 80%;
+    width: 70%;
+    border-radius: 30px;
+    border: 3px solod black;
+    position: relative;
+}
+
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(156, 180, 156);
+    height: 96%;
+    width: 90%;
+    border-radius: 30px;
+    border: 3px solod black;
+    position: absolute;
+    z-index: 100;
+    opacity: 90%;
+    font-size: medium;
+    font-weight:bolder;
+
+}
+
+.screen2{
+    margin:10px;
+    margin-top: 20px;
+    width: 80%;
+    height: 50px;
+    background-color: azure;
+    border-radius: 15px;    
+    display: flex;
+    justify-content: flex-end;
+    font-size: xx-large;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.screen1{
+    margin:10px;
+    width: 80%;
+    height: 50px;
+    background-color: azure;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: xx-large;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.keys{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    gap:5px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;;
+    gap:5px;
+}
+
+.button{
+    display: flex;
+    gap: 5px;
+    width: 14.28%;
+    background-color: bisque;
+    border-radius: 5px;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2x{
+    display: flex;
+    gap: 5px;
+    width: 29.5%;
+    background-color: bisque;
+    border-radius: 5px;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-up{
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid black;
+  }
+
+.arrow-down{
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid black;
+}
+
+.arrow-left{
+    width: 0; 
+    height: 0; 
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+
+    border-right: 25px solid black;
+
+  }
+
+  .arrow-right{
+    width: 0; 
+    height: 0; 
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+
+    border-left: 25px solid black;
+
+  }
+
+.active{
+    background-color: rgb(187, 167, 167);
+}
+
+#steps{
+    border-radius: 10px;
+    background-color: greenyellow;
+}
